@@ -9,6 +9,8 @@ configtool
 A simple configuration tool to push stuff into a MP PixelPusher's EEPROM.
 Also includes a handy terminal mode, showing the debug console!
 
+The included binary works on OS X Mavericks on my particular computer.  If it doesn't work for you, you should build your own copy.
+
 Build it like so:
 
 `gcc -oconfigtool configtool.c`
