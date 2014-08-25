@@ -1,0 +1,12 @@
+servo_multiplier=6
+servo_minimum=1000
+servo_interval=20000
+strip1=servo
+strip3=servo
+strip4=servo
+strip5=servo
+strip6=servo
+strip7=servo
+strip8=servo
+strip2=tlc59711
+order2=gbr
