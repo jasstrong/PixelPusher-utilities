@@ -38,7 +38,9 @@ If you're on Windows, well, it's probably `COM9` or something.  Good luck with t
 The second parameter is the config file to push to the device.
 It'll push the file into the EEPROM (be warned:  it will be truncated at 1022 bytes long) and 
 then reboot the Pusher; you'll be left watching a live terminal onto the Pusher's console. You can type "Reboot" to
-issue a hard reset, or type a lower-case "q" to quit.  If the config file parameter is omitted then it just reboots the pusher.  (If you skip a parameter, you may not issue any later ones.)
+issue a hard reset, or type a lower-case "q" to quit.  
 
-The third parameter can be absent;  if it is, you get the console thingy.  If it's 'echo', you get to see the first five seconds' worth of output from the pusher.  If it's anything else, you see nothing at all.
+If the config file parameter is omitted then it just reboots the pusher.  (If you skip a parameter, you may not issue any later ones.)
+
+The third parameter can be absent;  if it is, you get the console thingy.  If it's 'echo', you get to see the first five seconds' worth of output from the pusher.  If it's anything else, you see nothing at all.  This is handy for scripting.
 
