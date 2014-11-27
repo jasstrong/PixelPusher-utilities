@@ -58,23 +58,23 @@ so, for people who want to put their pixel.rc in the PP (and, if like me, you ne
 - run terminal
 
 - you'll see that
-
+```
 > Last login: Thu Nov 27 08:00:40 on ttys000
 > (name of your computer):~ (NAME OF YOUR COMPUTER)$
-
+```
 - write : cd configtool
 press enter, your terminal root change, you'll see that now :
-
+```
 > Last login: Thu Nov 27 08:00:40 on ttys000
 > (name of your computer):~ (NAME OF YOUR COMPUTER)$ 
 > (name of your computer):configtool (NAME OF YOUR COMPUTER)$
-
+```
 - now write : ./configtool /dev/tty.usbmodem12341 pixel.rc
 and press enter !
 
 - the script will start, this is what i have :
 
-
+```
 > Last login: Thu Nov 27 08:02:31 on ttys000
 > lesloulous:~ LES_LOULOUS$ cd /configtool
 > lesloulous:configtool LES_LOULOUS$ ./configtool /dev/tty.usbmodem12341 pixel.rc
@@ -182,10 +182,10 @@ and press enter !
 > No address.  Trying again...
 > Still didn't get IP address.  Retrying.
 > No address.  Trying again...
-
+```
 
 - when you see this, press q to quit terminal :
-
+```
 > Configured. Let us proceed.
 > Connecting...
 > No address. Trying again...
@@ -193,7 +193,7 @@ and press enter !
 > No address. Trying again...
 > Still didn't get IP address. Retrying.
 > No address. Trying again...
-
+```
 - it's done, and i hope it'll help :)
 
 
